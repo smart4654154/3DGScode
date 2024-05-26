@@ -14,7 +14,7 @@
 
 #include <vector>
 #include <functional>
-
+//这段代码定义了一个名为CudaRasterizer的命名空间，其中包含一个名为Rasterizer的类。
 namespace CudaRasterizer
 {
 	class Rasterizer

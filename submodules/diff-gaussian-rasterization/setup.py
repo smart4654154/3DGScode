@@ -32,3 +32,8 @@ setup(
         'build_ext': BuildExtension
     }
 )
+#该Python函数是一个setup函数，用于配置和安装一个名为diff_gaussian_rasterization的
+# Python包。该包包含一个CUDA扩展模块_C，该模块由多个CUDA源文件编译而成，
+# 使用了CUDAExtension类和BuildExtension类来配置编译选项和构建过程。其中，
+# sources参数指定了需要编译的CUDA源文件列表，
+# extra_compile_args参数指定了编译时的附加参数，包括GLM库的包含路径。
